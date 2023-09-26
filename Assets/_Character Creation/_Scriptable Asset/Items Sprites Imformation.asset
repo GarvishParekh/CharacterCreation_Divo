@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca14ac94b37fd4747b90fb0e47d072ba, type: 3}
+  m_Name: Items Sprites Imformation
+  m_EditorClassIdentifier: 
+  maleSprites:
+    tShirtSprites:
+    - {fileID: 21300000, guid: dd3aa4319ba0c6f42a3837ab9e6bac10, type: 3}
+    - {fileID: 21300000, guid: 139892845acc6f34f9eb416952a15fb0, type: 3}
+    - {fileID: 21300000, guid: 26e147c34ae6b374ca48cb430254da05, type: 3}
+    - {fileID: 21300000, guid: 8d55bc34ccd445841b2780884368342f, type: 3}
+    - {fileID: 21300000, guid: 71f675660543e3b42be95219485b1fa4, type: 3}
+    - {fileID: 21300000, guid: db6cd76f2b306cd46a3ad84782c7ff36, type: 3}
+    - {fileID: 21300000, guid: 11af24c0fdea1394c88bf31e1b0ba254, type: 3}
+    - {fileID: 21300000, guid: 4db6f12b00d585540ac9bc1721c76bc8, type: 3}
+    - {fileID: 21300000, guid: 3c42a5271103b7647942d7b97c06e25a, type: 3}
+    - {fileID: 21300000, guid: a8e242678d2aacf439f1d1310e50a255, type: 3}
+    - {fileID: 21300000, guid: 4414cb3f618872149b7caf03c366e7ee, type: 3}
+    - {fileID: 21300000, guid: 77f04a9da46f15146bf105115168deb3, type: 3}
+    - {fileID: 21300000, guid: 3a6d4b80cca66d34288659caf01f881e, type: 3}
+    - {fileID: 21300000, guid: c7629a3023e45f243955712cda0fbaee, type: 3}
+    - {fileID: 21300000, guid: 8c12c284eb0a29f42af85e6e4bd11b9b, type: 3}
+    - {fileID: 21300000, guid: da16644a6e112f54fb0e027fb01b1235, type: 3}
+    - {fileID: 21300000, guid: 39ebbfe6b12edbc47aa720a589c4897d, type: 3}
+    - {fileID: 21300000, guid: 801055664077fbe478712926da197818, type: 3}
+    - {fileID: 21300000, guid: f4e5bb009828f6b4eaa13b0c5591dc24, type: 3}
+    - {fileID: 21300000, guid: 9d3c41905f6c15740bdada68cd2c7189, type: 3}
+    - {fileID: 21300000, guid: 2af51b7bd25a4294b83383e026c5bebb, type: 3}
+    - {fileID: 21300000, guid: 8378723fafaab024197dcda3765c0716, type: 3}
+    - {fileID: 21300000, guid: 654fffbf0f885024190a673280bc67fd, type: 3}
+    - {fileID: 21300000, guid: 4f656fb2b1fede24d8da7b7e30309053, type: 3}
+    trouserSprites:
+    - {fileID: 21300000, guid: 604b7d439fbe09a40a952a4b48b497ad, type: 3}
+    - {fileID: 21300000, guid: 5e8c0bbb6c9c0f2469e589e8cb1935ed, type: 3}
+    - {fileID: 21300000, guid: 8614ed52e8950ce46b30373719bd4c23, type: 3}
+    - {fileID: 21300000, guid: 8e03a281dd5461b4a8323f0cd99a5e63, type: 3}
+    - {fileID: 21300000, guid: 3303a2ea7a653af4d9161fb945a9502d, type: 3}
+    - {fileID: 21300000, guid: a99f2844127f6fc47bf1309a5b0b4702, type: 3}
+    - {fileID: 21300000, guid: 5c085e0637f4d1342851ac62980966af, type: 3}
+    - {fileID: 21300000, guid: a096e4ce3ac925e43b71fde2aa9dd279, type: 3}
+    - {fileID: 21300000, guid: cd8cd972bd68c304c9c871b9b2aa1ab6, type: 3}
+    - {fileID: 21300000, guid: 7b5e94e391bd0924c88e813f0da3b4cd, type: 3}
+    - {fileID: 21300000, guid: dd0e40c475075b04684d2d443fa588c2, type: 3}
+    - {fileID: 21300000, guid: 5304f07ec1caac34e88209eff48839cc, type: 3}
+    - {fileID: 21300000, guid: eaef82d90c2b0e14894986ca2e9ae4ad, type: 3}
+    hairSprites:
+    - {fileID: 21300000, guid: 664bb527e4746ce4ab427d5e5009bb31, type: 3}
+    - {fileID: 21300000, guid: 9e95fa291957cc54eae6e638b8149328, type: 3}
+    - {fileID: 21300000, guid: e25bf4fc5c6aa994caabd361241ced26, type: 3}
+    - {fileID: 21300000, guid: 091c4502d9f5b8247a14b14031e0f6ec, type: 3}
+    - {fileID: 21300000, guid: b5a0aa2ff7f55d0458395e6b840c9637, type: 3}
+    facialHairSprites:
+    - {fileID: 21300000, guid: 93dc12116ef20764ea8babf5101f2a8f, type: 3}
+    - {fileID: 21300000, guid: 6e2653efd116338489517f0e57db8edd, type: 3}
+    - {fileID: 21300000, guid: bac2bef513286b847bc960a63877dea1, type: 3}
+    - {fileID: 21300000, guid: 15754c24991718c41b431ee23c2bd51b, type: 3}
+    - {fileID: 21300000, guid: a71e4c4236129994cab82623ec4391f1, type: 3}
+    - {fileID: 21300000, guid: 5238bb7497e159e4cbfb195e6ba55291, type: 3}
+    - {fileID: 21300000, guid: 487808ffc8f2f0546b80c385a8b0b30d, type: 3}
+    hatSprite:
+    - {fileID: 21300000, guid: 93dc12116ef20764ea8babf5101f2a8f, type: 3}
+    - {fileID: 21300000, guid: c14256c1e6332d443a241f35cb858129, type: 3}
+    - {fileID: 21300000, guid: 1992ea542720c154d99ad40fdda74531, type: 3}
+    - {fileID: 21300000, guid: 0ee22633a9d9e124cace90407ef461c1, type: 3}
+    - {fileID: 21300000, guid: 6808857b2d0039546b84a2344c71753f, type: 3}
+    footwearSprite:
+    - {fileID: 21300000, guid: 551a039a240614f43816fc0c32a10d33, type: 3}
+    - {fileID: 21300000, guid: 8fc197336c5b9994f8a0a373fea24ee4, type: 3}
+    - {fileID: 21300000, guid: 68dbc1a8c6a59cc4a886474bd477844e, type: 3}
+    - {fileID: 21300000, guid: dbd13a78b3de77f4583c15389ec48ef1, type: 3}
+    - {fileID: 21300000, guid: cb44887911e81d642b1bf1c8cabfc453, type: 3}
+    - {fileID: 21300000, guid: 328826a726c792a499a26c6313fa5c40, type: 3}
+    - {fileID: 21300000, guid: b7a338a47e33cfa47829c79cec6d9193, type: 3}
+    sunglassesSprite:
+    - {fileID: 21300000, guid: 93dc12116ef20764ea8babf5101f2a8f, type: 3}
+    - {fileID: 21300000, guid: 369ab79c78d154b48ad26697e0f9e067, type: 3}
+    - {fileID: 21300000, guid: 3b812e5e75cd32b408e828cfe8adb8ec, type: 3}
+  femaleSprites:
+    tShirtSprites:
+    - {fileID: 21300000, guid: edcaec59e0120a24abdadcf26a73f363, type: 3}
+    - {fileID: 21300000, guid: 51825d6e675698549a03b18fa968fcc8, type: 3}
+    - {fileID: 21300000, guid: a9b3f83e00576e24a8f5702c172a38b6, type: 3}
+    - {fileID: 21300000, guid: ddde7c1ed5fcd2f4881f1bc5b00a194b, type: 3}
+    - {fileID: 21300000, guid: 53f4bb7d90ce4584e9f70208ad2245e0, type: 3}
+    - {fileID: 21300000, guid: 185708b4cdee6254981f806bb3972be3, type: 3}
+    - {fileID: 21300000, guid: 81b8d68d99276ac419e698cfbec9aef3, type: 3}
+    - {fileID: 21300000, guid: 30033c7a87509d84fad34582ee4947e4, type: 3}
+    - {fileID: 21300000, guid: dd6de4280981bdd4291588b242430406, type: 3}
+    - {fileID: 21300000, guid: f5e64fac58eb2d9498368d61586d22de, type: 3}
+    - {fileID: 21300000, guid: 95fc87f9a8cc36d4f9ac60c3a9e69eb7, type: 3}
+    - {fileID: 21300000, guid: e3540d999b62e9947b060c7c3cd315f5, type: 3}
+    - {fileID: 21300000, guid: 24b486339df842848a7fa4b9608ab65e, type: 3}
+    - {fileID: 21300000, guid: 92ff43802f20e654596410286a7e2550, type: 3}
+    - {fileID: 21300000, guid: 0e81d81cbb4e62f47b9443e2b87d642b, type: 3}
+    - {fileID: 21300000, guid: 6248875d78ba52e40a42bf0b1988d2ac, type: 3}
+    - {fileID: 21300000, guid: 4831a6a1bf4536f4fbcc3b52304a8dec, type: 3}
+    - {fileID: 21300000, guid: 0d72fdca92e7eea49bb1b12a11ff9326, type: 3}
+    - {fileID: 21300000, guid: db527529a1bc68247aecba36e96d0e82, type: 3}
+    - {fileID: 21300000, guid: 2346adb0f6a1e974aba1d6c52a6395c6, type: 3}
+    - {fileID: 21300000, guid: e0f3fa554e4de4741ba49af4154d93e8, type: 3}
+    - {fileID: 21300000, guid: f877c36c276697c458219f4b6e716378, type: 3}
+    - {fileID: 21300000, guid: df1760ee7fff35748a34d2e6e93276fb, type: 3}
+    - {fileID: 21300000, guid: c2223b5dc32aac64792f7fab9bd20930, type: 3}
+    trouserSprites:
+    - {fileID: 21300000, guid: 9ebb2418891843d4b9244e336eb9f7cc, type: 3}
+    - {fileID: 21300000, guid: 37927e626593715488e16c8864488432, type: 3}
+    - {fileID: 21300000, guid: 740b174c3a14af44ebca4810a7074113, type: 3}
+    - {fileID: 21300000, guid: dc6c32cdbe81688449ee311fb4eef075, type: 3}
+    - {fileID: 21300000, guid: 3d6903cdb2aba2c4da75ed9245cabb3c, type: 3}
+    - {fileID: 21300000, guid: 582ef22bc6030084eb228ff347793446, type: 3}
+    - {fileID: 21300000, guid: 5827d7cea5e937647af024ff92ce7e28, type: 3}
+    - {fileID: 21300000, guid: 957259ba0e4234648a4074990ab70b21, type: 3}
+    - {fileID: 21300000, guid: 83003d91d0d4e6c4abfd482b01f919bd, type: 3}
+    - {fileID: 21300000, guid: 7214c8c6c3839904a9735154e0fd7f1e, type: 3}
+    hairSprites:
+    - {fileID: 21300000, guid: 02a9d3a0dfcc99b4b90b9b3d81e91562, type: 3}
+    - {fileID: 21300000, guid: 89b3b4600d279c444b5dc89386deea0e, type: 3}
+    - {fileID: 21300000, guid: f88f2a5d01b0d1c4cbb19bcdb4b77e10, type: 3}
+    - {fileID: 21300000, guid: ef13ab21b33a5f7409291de8287476fe, type: 3}
+    - {fileID: 21300000, guid: 6de7b0ce914636d4481ec6852e4dea47, type: 3}
+    hatSprite:
+    - {fileID: 21300000, guid: 93dc12116ef20764ea8babf5101f2a8f, type: 3}
+    - {fileID: 21300000, guid: d1125e83d902b64468f74d05a3ef511f, type: 3}
+    - {fileID: 21300000, guid: 591516427a53deb4ca6bd87af36cd5be, type: 3}
+    - {fileID: 21300000, guid: d89f22281f904f24ca2bfbb7fc886303, type: 3}
+    - {fileID: 21300000, guid: 952f019d9e7597c41ba6a96f128839e6, type: 3}
+    footwearSprite:
+    - {fileID: 21300000, guid: 4bf61854111e1294387f97a9a164e55e, type: 3}
+    - {fileID: 21300000, guid: cb283bb7b9822c74aada063b045c371c, type: 3}
+    - {fileID: 21300000, guid: d0f0dc378f5d95a48a209696792a572d, type: 3}
+    - {fileID: 21300000, guid: a65310eacd929614bbe902cf7c642977, type: 3}
+    - {fileID: 21300000, guid: eb9221a2e8470344d8b5c12da03ba448, type: 3}
+    - {fileID: 21300000, guid: 7ff5a8f60f5ddf04aa181473d27f132c, type: 3}
+    sunglassesSprite:
+    - {fileID: 21300000, guid: 93dc12116ef20764ea8babf5101f2a8f, type: 3}
+    - {fileID: 21300000, guid: 6601cae9effe8e144af023720ec28ebc, type: 3}
+    - {fileID: 21300000, guid: 9292a3cdf54a9e64aa92c8c3083f210c, type: 3}
+    - {fileID: 21300000, guid: b00e81822a3017f498c0b065db5db6d2, type: 3}
