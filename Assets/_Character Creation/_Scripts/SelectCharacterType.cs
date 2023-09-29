@@ -22,19 +22,8 @@ public class SelectCharacterType : MonoBehaviour
     private void Start()
     {
         int gender = PlayerPrefs.GetInt(playerPrefTags.userGender, 0);
-        int bodyType = PlayerPrefs.GetInt(playerPrefTags.userBodyType, 1);
-
-        if (gender == 0 )
-            Debug.Log("User selected male");
-        else
-            Debug.Log("User selected female");
-
-        if (bodyType == 0)
-            Debug.Log("User selected thin body type");
-        else if (bodyType == 1)
-            Debug.Log("User selected regular body type");
-        else if (bodyType == 2)
-            Debug.Log("User selected fat body type");
+        characterInformation.userGender = (CharacterInformation.UserGender)gender;
+        
     }
 
     public void _ChooseMale()

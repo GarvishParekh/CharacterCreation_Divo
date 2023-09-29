@@ -1,3 +1,4 @@
+using Meta.WitAi;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -30,6 +31,35 @@ public class SetBodyType : MonoBehaviour
     [SerializeField] private Toggle thinToggle; 
     [SerializeField] private Toggle regularToggle;
     [SerializeField] private Toggle fatToggle;
+
+    private void Start()
+    {
+        int bodyType = PlayerPrefs.GetInt(playerPrefTag.userBodyType, 1);
+        Debug.Log($"Body Type {bodyType}");
+
+        if (bodyType == 0)
+        {
+            if (characterInfo.userGender == CharacterInformation.UserGender.Male)
+                ChangeMaleBlendShapes(100, 0);
+            else
+                ChangeFemaleBlendShapes(100, 0);
+        }
+        else if (bodyType == 1)
+        {
+            if (characterInfo.userGender == CharacterInformation.UserGender.Male)
+                ChangeMaleBlendShapes(0, 0);
+            else
+                ChangeFemaleBlendShapes(0, 0);
+        }
+        else if (bodyType == 2)
+        {
+            if (characterInfo.userGender == CharacterInformation.UserGender.Male)
+                ChangeMaleBlendShapes(0, 100);
+            else
+                ChangeFemaleBlendShapes(0, 100);
+        }
+
+    }
 
     public void UpdateAppearanceUI()
     {

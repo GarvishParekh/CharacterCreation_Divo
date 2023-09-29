@@ -12,4 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d6195c81acc874b88a575ee0346f49, type: 3}
   m_Name: PlayerPref Information
   m_EditorClassIdentifier: 
-  CharacterType: Character Type
+  userGender: User Gender
+  userBodyType: User Body Type
+  userBodyColor: User Body Color
+  malePrefab:
+    tShirtEquipped: Male TShirt Equipped
+    trouserEquipped: Male Trouser Equipped
+    hairEquipped: Male Hair Equipped
+    facialHairEquipped: Male Facial Hair Equipped
+    hatEquipped: Male Hat Equipped
+    footwearEquipped: Male Footwear Equipped
+    sunglassesEquipped: Male Sunglasses Equipped
+  femalePrefab:
+    tShirtEquipped: Female TShirt Equipped
+    trouserEquipped: female Trouser Equipped
+    hairEquipped: female Hair Equipped
+    hatEquipped: Female Hat Equipped
+    footwearEquipped: Female Footwear Equipped
+    sunglassesEquipped: Female Sunglasses Equipped
